@@ -58,7 +58,7 @@ const devWebpackConfig = merge(baseWebpackConfig, {
         }).then((response) => {
           res.json(response.data)
         }).catch((e) => {
-          console.log(e)
+          console.log("cuowu")
         })
       })
     },
